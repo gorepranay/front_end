@@ -4,15 +4,21 @@
 <title>Welcome to pranaygore</title>
 </head>
 <body>
+	<!-- Directing to anoher page after submission -->
+	<form action="second.html">
 	<p>Enter Name:
  	<input type="text" name="username" placeholder="Enter your name"></p>
-	<p>Email address:<input type="email" name="mailid" value="man@priff.com"/></p>
+ 	<!-- Making email id input necessary -->
+	<p>Email address:<input type="email" name="mailid" value="man@priff.com" required/></p>
 	<label for="pwd">Enter password:</label>
 	<input type="password" name="pwd" value=""/><br>
 
 	<label for="age">Above 18 ?</label>
 	<input type="checkbox" name="age" value=""/>
-	
+
 	<p>Gender: Male <input type="radio" name="male" value=""/>
 			   Female <input type="radio" name="female" value=""/></p>
+
+	<input type="submit" value="Register">
+	</form>
 </body>
