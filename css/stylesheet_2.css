@@ -1,4 +1,25 @@
 /*Set the background image*/
 body{
 	background: url(https://www.itl.cat/pics/b/29/290770_background-hd-wallpapers.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*Few more properties*/
+/*Element Selector*/
+p{
+	border-color: orange;
+	border-width: 5px;
+	border-style: solid;
+}
+
+/*ID selectors*/
+#head3{
+	color: blue;
+	background-color: yellow;
+}
+/*Class selector*/
+.classhead{
+	color:Green;
+	background-color: black;
 }
