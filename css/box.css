@@ -1,0 +1,18 @@
+#top{
+	/*border thickness, dotted/solid, color*/
+	border: 10px solid green;
+	/*border-top, border-left can be used too to customize.*/
+
+	/*Border(green) takes on complete page, need to reduce it*/
+	width: 25%;
+	text-align: center;
+	/* Padding: distance between the borders*/
+	padding:50px; /*This will have same distance from borders*/
+	/* Specifying distance from a specific side: From top to clockwise*/
+	padding: 50px 100px 150px 200px;
+
+	/*Margin is the distance from another HTML block*/
+	margin-left: 100px;margin-top: 50px;
+	/*Just 'margin' can also be used for all equal sides.*/
+	
+}›
